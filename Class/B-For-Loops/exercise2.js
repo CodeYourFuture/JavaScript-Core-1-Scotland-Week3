@@ -1,6 +1,6 @@
 
 // This "for" loop writes the numbers 0-6
-for(let i = 0; i < 7; i++){
+for(let i = 6; i >=0; i--){
     console.log(i);
 }
 

@@ -2,6 +2,15 @@
 // In this exercise we want to print ONLY the numbers greater than 12
 
 let numbersList = [5, 3, 15, 8, 24, 31, 12];
+let array = [];
+for (let i = 0; i<numbersList.length; i++){
+    if(numbersList[i]> 12){
+        //console.log(numbersList[i]);//
+        array.push(numbersList[i]);
+    }
+
+}
+console.log(array);
 
 // Write a "for" loop to ITERATE through the numbersList array
 

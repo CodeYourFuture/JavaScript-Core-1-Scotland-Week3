@@ -13,7 +13,9 @@ console.log(answer1);
 
 
 
-
+function calculateArea(x, y,z){
+    return x * y * z; 
+}
 
 
 

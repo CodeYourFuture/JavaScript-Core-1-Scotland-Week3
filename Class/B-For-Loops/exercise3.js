@@ -1,9 +1,9 @@
 
-let namesList = ["Sundar", "Reshma", "Shantanu", "Arvind"];
+let traineesList = ["Tandy", "Abadi", "Virginie", "Ben", "Kudrat"];
 
 // This is how we use a "for" loop to ITERATE through an array
-for(let i = 0; i < namesList.length; i++){
-    console.log(namesList[i]);
+for(let i = 0; i < traineesList.length; i++){
+    console.log( "Hello " + traineesList[i]);
 }
 
 // First, declare an array with the names of the trainees in your breakout room
