@@ -9,6 +9,11 @@ function doubleValue(x){
 
 let doubledNumbers = [];
 
+for (let i = 0; i = numbersList.length; i++){
+    
+
+}
+
 // Write a "for" loop to ITERATE through the numbersList array
 // Call the function doubleValue for each number and ADD (push) the result to the doubledNumbers array
 

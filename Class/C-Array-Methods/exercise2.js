@@ -13,6 +13,7 @@ let namesList = ["Aria", "Shantanu", "Brian", "Arvind", "Reshma", "Candice", "Su
 
 let newArray = [];
 
+newArray = namesList.filter(isTrainee);
 // JavaScript gives us a shortcut to solve the previous exercise!
 
 // Look at the teaching document slide 39 to see how to use array.filter
