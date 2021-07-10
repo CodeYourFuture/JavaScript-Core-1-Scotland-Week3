@@ -8,8 +8,17 @@ function canVote(electionType, voterAge){
     // Complete this function so it returns true if the person can vote
     // or returns false if they cannot vote
 
-
+if(voterAge >= 16 + electionType === "Scotland"){
+   
+    return true;
 }
+
+if else(voterAge >= 18 && electionType === "UK"){
+    return true;
+
+}  return false;
+}
+
 
 
 let answer1 = canVote("Scotland", 16);

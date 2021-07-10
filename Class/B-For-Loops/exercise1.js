@@ -8,3 +8,6 @@ for(let i = 0; i < 5; i++){
 // Write your own "for" loop below to print "Goodbye" 6 times
 
 
+for(let i = 1; i <= 6; i++){
+    console.log("Hell0");
+}
