@@ -1,4 +1,4 @@
-let ageOfReshma = 25;
+let ageOfReshma = 20;
 
 // Write an "if/else" statement below to print
 // "Reshma is the same age as me" if Reshma is your age
