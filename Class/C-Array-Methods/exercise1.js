@@ -14,7 +14,11 @@ let namesList = ["Aria", "Shantanu", "Brian", "Arvind", "Reshma", "Candice", "Su
 let newArray = [];
 
 // Write a "for" loop which ITERATES over the namesList array
+for(i = 0; i < namesList.length; i++){
+    newArray.push(namesList[i]);
+}
 // Call the isTrainee function for each value
+
 // add each name to the new array only if the name is NOT a mentor
 
 
