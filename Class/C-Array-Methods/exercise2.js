@@ -18,8 +18,8 @@ let newArray = [];
 // Look at the teaching document slide 39 to see how to use array.filter
 
 // You should be able to solve the exercise with one line of code
+let a = namesList.filter(isTrainee);
 
-
-
+console.log(a);
 console.log("Answer should be Aria, Brian, Candice, Sunesh");
 console.log(newArray);
