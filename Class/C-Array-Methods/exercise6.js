@@ -5,6 +5,17 @@ let scoresList = [45, 83, 15, 8, 62, 60, 79];
 // It should have one input parameter called score
 // It should return true if the score is 60 or above
 // otherwise return false
+function hasPassed(score) {
+    if (score >= 60) {
+        return true;
+    } else {
+    return false;
+ }
+}
+
+let highScorers = scoresList.filter(hasPassed);
+
+console.log(highScorers);
 
 
 

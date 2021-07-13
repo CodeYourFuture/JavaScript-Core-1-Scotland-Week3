@@ -7,4 +7,6 @@ for(let i = 0; i < 7; i++){
 // Write your own "for" loop below to COUNT DOWN
 // It should write the numbers 6-0
 
-
+for (let j = 6; j >= 0; j--) {
+    console.log(j);
+}

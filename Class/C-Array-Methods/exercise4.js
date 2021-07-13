@@ -9,6 +9,7 @@ function doubleValue(x){
 
 let doubledNumbers = [];
 
+doubledNumbers = numbersList.map(doubleValue);
 
 // JavaScript gives us a shortcut to solve the previous exercise!
 
