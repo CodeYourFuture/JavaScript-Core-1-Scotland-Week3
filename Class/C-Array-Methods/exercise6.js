@@ -6,10 +6,21 @@ let scoresList = [45, 83, 15, 8, 62, 60, 79];
 // It should return true if the score is 60 or above
 // otherwise return false
 
+function hasPassed (score){
+    console.log(score);
+    if (score >= 60){
+        return true;
+    }else{
+        return false;
+    }
 
+}
 
 // 2. Use array.filter to create a new array with only the values in scoresList which have passed
 
+let score = scoresList.filter(hasPassed);
+
+console.log(score);
 
 
 // 3. Print the new array to the screen
