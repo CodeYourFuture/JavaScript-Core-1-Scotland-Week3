@@ -4,11 +4,12 @@
 
 // In the function below, electionType can be either "Scotland" or "UK"
 
-function canVote(electionType, voterAge){
+function canVote(electionType, voterAge) {
     // Complete this function so it returns true if the person can vote
-    // or returns false if they cannot vote
-
-
+    // or returns false if they cannot vote. 
+    if ((electionType === "Scotland" && voterAge >= 16) || (electionType === "UK" && voterAge >= 18)) {
+        return true;
+    } else return false;
 }
 
 
