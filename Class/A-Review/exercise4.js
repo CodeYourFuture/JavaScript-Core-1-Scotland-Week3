@@ -1,16 +1,20 @@
-
 // The voting age for Scottish-only elections is 16+
 // The voting age for UK elections is 18+
 
 // In the function below, electionType can be either "Scotland" or "UK"
 
-function canVote(electionType, voterAge){
-    // Complete this function so it returns true if the person can vote
-    // or returns false if they cannot vote
-
-
+function canVote(electionType, voterAge) {
+  // Complete this function so it returns true if the person can vote
+  // or returns false if they cannot vote
+  if (
+    (electionType === "Scotland" && voterAge >= 16) ||
+    (voterAge >= 18 && electionType === "UK")
+  ) {
+    return true;
+  } else {
+    return false;
+  }
 }
-
 
 let answer1 = canVote("Scotland", 16);
 console.log("Answer 1 should be true, answer: " + answer1);
