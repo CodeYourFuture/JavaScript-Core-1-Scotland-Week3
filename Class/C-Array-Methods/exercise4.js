@@ -15,7 +15,7 @@ let doubledNumbers = [];
 // Look at the teaching document slide 59 to see how to use array.map
 
 // You should be able to solve the exercise with one line of code
-
+doubledNumbers = numbersList.map(doubleValue);
 
 
 
