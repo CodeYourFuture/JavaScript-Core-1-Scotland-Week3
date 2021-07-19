@@ -1,12 +1,19 @@
 
 
-let distanceToTravel = 20;
+let distanceToTravel = 2;
 
 // Write an "if/else" statement below to print either - 
 // "Take a bus"  if distanceToTravel is less than 20
 // "Catch a train" if distanceToTravel is between 20 and 200
 // "Take a flight!" if distanceToTravel is greater than 200
 
+if( distanceToTravel < 20 ){
+    console.log("Take a bus");
+}else if( distanceToTravel > 200 ){
+    console.log("Take a flight!");
+}else{
+    console.log("Catch a train");
+}
 
 
 
