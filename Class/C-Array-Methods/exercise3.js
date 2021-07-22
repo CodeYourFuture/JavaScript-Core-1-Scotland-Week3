@@ -12,7 +12,11 @@ let doubledNumbers = [];
 // Write a "for" loop to ITERATE through the numbersList array
 // Call the function doubleValue for each number and ADD (push) the result to the doubledNumbers array
 
+for (let i = 0; i < numbersList.length; i++){
+    let doubledValue = doubleValue(numbersList[i]);
+    doubledNumbers.push(doubledValue)
 
+}
 
 
 

@@ -11,3 +11,8 @@ for(let i = 0; i < namesList.length; i++){
 
 // Then, write a "for" loop to say hello to each trainee
 
+let cyfNames = ["Maarcis", "Andy", "Colette", "Luke", "Pouja", "Mirabela"];
+
+for(let i = 0; i < cyfNames.length; i++){
+    console.log("Hello " + cyfNames[i]);
+}

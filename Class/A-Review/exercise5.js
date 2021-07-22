@@ -11,7 +11,9 @@ console.log(answer1);
 // It should take three INPUT PARAMETERS, called x, y and z
 // It should RETURN a number (the three input parameters multiplied together)
 
-
+function calculateVolume(x, y, z){
+    return x * y * z;
+}
 
 
 

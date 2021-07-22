@@ -13,3 +13,15 @@ let scoresList = [45, 83, 15, 8, 62, 60, 79];
 
 
 // 3. Print the new array to the screen
+
+function hasPassed(score){
+    if(score > 60){
+        return true;
+    }else {
+        return false;
+    }
+}
+
+let newArray = scoresList.filter(hasPassed);
+
+console.log(newArray);

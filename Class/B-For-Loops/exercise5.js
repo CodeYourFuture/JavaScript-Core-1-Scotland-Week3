@@ -13,7 +13,11 @@ let newArray = [];
 // Remember the "push" command
 
 
-
+for(let i = 0; i < numbersList.length; i++){
+    if(numbersList[i] < 18){
+        newArray.push(numbersList[i]);
+    }
+}
 
 
 

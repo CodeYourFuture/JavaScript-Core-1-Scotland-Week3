@@ -11,7 +11,7 @@ function isTrainee(personName){
 
 let namesList = ["Aria", "Shantanu", "Brian", "Arvind", "Reshma", "Candice", "Sundar", "Sunesh"];
 
-let newArray = [];
+let newArray = namesList.filter(isTrainee);
 
 // JavaScript gives us a shortcut to solve the previous exercise!
 
@@ -20,6 +20,5 @@ let newArray = [];
 // You should be able to solve the exercise with one line of code
 
 
-
-console.log("Answer should be Aria, Brian, Candice, Sunesh");
 console.log(newArray);
+console.log("Answer should be Aria, Brian, Candice, Sunesh");

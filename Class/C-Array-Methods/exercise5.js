@@ -12,3 +12,13 @@ let namesList = ["Sundar", "Reshma", "Shantanu", "Arvind"];
 
 
 // 3. Print the new array to the screen
+
+
+
+function capitaliseName(theName){
+ return theName.toUpperCase();
+}
+
+let newArray = namesList.map(capitaliseName);
+
+console.log(newArray);
