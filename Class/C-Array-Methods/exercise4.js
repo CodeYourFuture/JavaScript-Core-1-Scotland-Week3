@@ -7,7 +7,7 @@ function doubleValue(x){
     return x * 2;
 }
 
-let doubledNumbers = [];
+
 
 
 // JavaScript gives us a shortcut to solve the previous exercise!
@@ -16,7 +16,7 @@ let doubledNumbers = [];
 
 // You should be able to solve the exercise with one line of code
 
-
+let doubledNumbers = numbersList.map(doubleValue);
 
 
 
