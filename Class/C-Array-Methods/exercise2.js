@@ -11,13 +11,14 @@ function isTrainee(personName){
 
 let namesList = ["Aria", "Shantanu", "Brian", "Arvind", "Reshma", "Candice", "Sundar", "Sunesh"];
 
-let newArray = [];
+let newArray = namesList.filter(isTrainee);
 
 // JavaScript gives us a shortcut to solve the previous exercise!
 
 // Look at the teaching document slide 39 to see how to use array.filter
 
 // You should be able to solve the exercise with one line of code
+
 
 
 
