@@ -1,15 +1,23 @@
-
 let mentorsList = ["Sundar", "Reshma", "Shantanu", "Arvind"];
 
-function isTrainee(personName){
-    if(mentorsList.includes(personName)){
-        return false;
-    }else{
-        return true;
-    }
+function isTrainee(personName) {
+  if (mentorsList.includes(personName)) {
+    return false;
+  } else {
+    return true;
+  }
 }
 
-let namesList = ["Aria", "Shantanu", "Brian", "Arvind", "Reshma", "Candice", "Sundar", "Sunesh"];
+let namesList = [
+  "Aria",
+  "Shantanu",
+  "Brian",
+  "Arvind",
+  "Reshma",
+  "Candice",
+  "Sundar",
+  "Sunesh",
+];
 
 let newArray = [];
 
@@ -19,7 +27,7 @@ let newArray = [];
 
 // You should be able to solve the exercise with one line of code
 
+console.log(namesList.filter(isTrainee));
 
-
-console.log("Answer should be Aria, Brian, Candice, Sunesh");
-console.log(newArray);
+//console.log("Answer should be Aria, Brian, Candice, Sunesh");
+//console.log(newArray);
