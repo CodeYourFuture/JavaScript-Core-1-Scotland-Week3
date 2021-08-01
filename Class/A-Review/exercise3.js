@@ -12,5 +12,7 @@ if(myName === "Richard"){
 
 // This line of code throws an error! What is the error?
 console.log(myAge);
+//the variable myAge is not defined
 
 // How can we fix the error?
+ // by declaring the variable myAge 
