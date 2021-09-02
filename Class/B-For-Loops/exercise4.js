@@ -4,6 +4,9 @@
 let numbersList = [5, 3, 15, 8, 24, 31, 12];
 
 // Write a "for" loop to ITERATE through the numbersList array
-for ()
+for (let i = 0; 1 <= numbersList.length; i = i++) {
+
+
+}
 // Inside the "for" loop, write an "if" statement to
 // print the number only if it is greater than 12
