@@ -22,4 +22,5 @@ let newArray = [];
 
 
 console.log("Answer should be Aria, Brian, Candice, Sunesh");
+
 console.log(newArray);

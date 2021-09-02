@@ -16,4 +16,4 @@ let doubledNumbers = [];
 
 
 
-console.log(doubledNumbers);
+console.log(doubledNumbers)
