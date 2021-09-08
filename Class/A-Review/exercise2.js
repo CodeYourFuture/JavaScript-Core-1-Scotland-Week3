@@ -1,6 +1,6 @@
 
 
-let distanceToTravel = 20;
+let distanceToTravel = 220;
 
 if (distanceToTravel < 20) {
     console.log("Take a bus");

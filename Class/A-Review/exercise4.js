@@ -13,7 +13,7 @@ function canVote(electionType, voterAge) {
 }
 
 
-let answer1 = canVote("Scotland", 16);
+let answer1 = canVote("Scotland", 14);
 console.log("Answer 1 should be true, answer: " + answer1);
 
 let answer2 = canVote("UK", 17);

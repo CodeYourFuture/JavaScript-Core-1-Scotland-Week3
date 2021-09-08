@@ -1,5 +1,5 @@
 
-let ageOfReshma = 25;
+let ageOfReshma = 30;
 
 let ageOfTandy = 25;
 // Write an "if/else" statement below to print

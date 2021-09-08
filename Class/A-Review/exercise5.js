@@ -17,4 +17,4 @@ function calculateVolume(x, y, z) {
 
 
 let answer2 = calculateVolume(4, 2, 5);
-console.log("Answer should be 40: " + answer2);
+console.log(answer2);

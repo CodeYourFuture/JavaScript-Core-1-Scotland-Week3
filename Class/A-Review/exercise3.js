@@ -6,7 +6,7 @@ let myName = "Richard";
 
 if (myName === "Richard") {
     // This variable has LOCAL scope, it only exists inside the "if" statement
-    let myAge = 45;
+    let myAge = 50;
     console.log(myAge);
 }
 
