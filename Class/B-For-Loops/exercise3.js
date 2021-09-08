@@ -12,5 +12,5 @@ let traineesList = ("Ben", "Tandy", "Virginia", "Ben", "Kudrat", "Moose")
 
 // Then, write a "for" loop to say hello to each trainee
 for (let i = 0; i < traineesList.length; i++) {
-    console.log("Hello " + traineesList.length[i]);
+    console.log("Hello" + traineesList.length[i]);
 }

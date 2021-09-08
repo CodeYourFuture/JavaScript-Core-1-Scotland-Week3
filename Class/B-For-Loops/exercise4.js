@@ -5,7 +5,8 @@ let numbersList = [5, 3, 15, 8, 24, 31, 12];
 
 // Write a "for" loop to ITERATE through the numbersList array
 for (let i = 0; 1 <= numbersList.length; i = i++) {
-
+if (numbersList <= 13 <=12);
+return true;
 
 }
 // Inside the "for" loop, write an "if" statement to
