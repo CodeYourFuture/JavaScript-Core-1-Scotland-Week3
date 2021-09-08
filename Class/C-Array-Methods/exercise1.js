@@ -29,5 +29,5 @@ for (let i = 0; i < namesList.length; i += 1) {
 }
 
 
-console.log("Answer should be Aria, Brian, Candice, Sunesh");
+console.log("Aria, Brian, Candice, Sunesh");
 console.log(newArray); 
