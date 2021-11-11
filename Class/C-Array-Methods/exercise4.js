@@ -1,14 +1,12 @@
-
 // We want a new array with all the numbers doubled
 
 let numbersList = [5, 3, 15, 8, 24, 31, 12];
 
-function doubleValue(x){
-    return x * 2;
+function doubleValue(x) {
+  return x * 2;
 }
 
 let doubledNumbers = [];
-
 
 // JavaScript gives us a shortcut to solve the previous exercise!
 
@@ -16,8 +14,6 @@ let doubledNumbers = [];
 
 // You should be able to solve the exercise with one line of code
 
-
-
-
+doubledNumbers = numbersList.map(doubleValue);
 
 console.log(doubledNumbers);
